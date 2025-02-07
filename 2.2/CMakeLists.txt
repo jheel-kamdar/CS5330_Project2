@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.10)
+project(feature_extractor)
+find_package(OpenCV REQUIRED)
+add_executable(feature_extractor feature_extractor.cpp)
+target_link_libraries(feature_extractor ${OpenCV_LIBS})
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
