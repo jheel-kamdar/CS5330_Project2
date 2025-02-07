@@ -31,6 +31,12 @@ This project implements a **Content-Based Image Retrieval (CBIR) system** using 
 ---
 
 ## **Instructions for Running Executables**  
+- Image_matcher1,2,3.cpp has the code for first 3 tasks.
+- image-matcher.cpp has tasks 4,5,6 and face detection extension
+- CIBR_analysis.cpp has task 7 
+- tetxture_analysis.cpp has FFT extension 
+- DNN_exmaple.cpp is an extension
+- feature_Extractor will give the features.csv
 
 ### **1. Compiling the Code**  
 Ensure **CMake** is installed and then compile using:  
