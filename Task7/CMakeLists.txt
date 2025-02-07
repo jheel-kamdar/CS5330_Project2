@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.10)
+project(cibr_analysis)
+find_package(OpenCV REQUIRED)
+add_executable(cibr_analysis cibr_analysis.cpp)
+target_link_libraries(cibr_analysis ${OpenCV_LIBS})
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
